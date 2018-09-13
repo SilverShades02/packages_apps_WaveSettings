@@ -20,7 +20,7 @@
 
     <Preference
         android:key="gesture_settings"
-        android:title="@string/gesture_preference_nos"
+        android:title="@string/gesture_preference_wos"
         android:fragment="com.android.settings.gestures.GestureSettings"
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
