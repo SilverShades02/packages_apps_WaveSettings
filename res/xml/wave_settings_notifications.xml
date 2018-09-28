@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2018 PixysOS
+    Copyright (C) 2018 WaveOS
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
 
     <Preference
         android:key="charging_light"
-        android:fragment="com.pixys.settings.BatteryLightSettings"
+        android:fragment="com.wave.settings.BatteryLightSettings"
         android:title="@string/battery_light_settings" />
 
     <Preference
@@ -40,6 +40,6 @@
     <Preference
             android:title="@string/traffic_title"
             android:key="traffic"
-            android:fragment="com.pixys.settings.fragments.Traffic" />
+            android:fragment="com.wave.settings.fragments.Traffic" />
 
 </PreferenceScreen>

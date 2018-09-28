@@ -18,7 +18,7 @@
  * key is identical to the target ConfigMap tag in ActionConstants 
  */
 
-package com.pixys.settings.preferences;
+package com.wave.settings.preferences;
 
 import java.util.Map;
 

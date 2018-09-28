@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixys.settings.fragments;
+package com.wave.settings.fragments;
 
 import android.app.ActivityManagerNative;
 import android.content.Context;
@@ -46,8 +46,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.Utils;
 
-import com.pixys.settings.preferences.CustomSeekBarPreference;
-import com.pixys.settings.preferences.SystemSettingSwitchPreference;
+import com.wave.settings.preferences.CustomSeekBarPreference;
+import com.wave.settings.preferences.SystemSettingSwitchPreference;
 
 public class Traffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
@@ -90,7 +90,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PIXYS_SETTINGS;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 
     @Override

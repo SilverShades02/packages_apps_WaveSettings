@@ -16,7 +16,7 @@
  * Adapter for displaying custom actions in a list
  */
 
-package com.pixys.settings.preferences;
+package com.wave.settings.preferences;
 
 import java.util.ArrayList;
 import java.util.List;

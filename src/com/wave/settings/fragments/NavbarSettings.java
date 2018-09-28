@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixys.settings.fragments;
+package com.wave.settings.fragments;
 
 import java.util.ArrayList;
 
@@ -42,7 +42,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.pixys_settings_navigation);
+        addPreferencesFromResource(R.xml.wave_settings_navigation);
 
     }
 
@@ -54,6 +54,6 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PIXYS_SETTINGS;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 }

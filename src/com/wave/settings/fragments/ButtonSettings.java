@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.pixys.settings.fragments;
+package com.wave.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;
@@ -37,8 +37,8 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
 
-import com.pixys.settings.preferences.ActionFragment;
-import com.pixys.settings.preferences.CustomSeekBarPreference;
+import com.wave.settings.preferences.ActionFragment;
+import com.wave.settings.preferences.CustomSeekBarPreference;
 
 public class ButtonSettings extends ActionFragment implements OnPreferenceChangeListener {
 
@@ -76,7 +76,7 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.pixys_settings_button);
+        addPreferencesFromResource(R.xml.wave_settings_button);
 
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
@@ -229,7 +229,7 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PIXYS_SETTINGS;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 
 }

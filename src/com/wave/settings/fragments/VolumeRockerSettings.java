@@ -1,4 +1,4 @@
-package com.pixys.settings.fragments;
+package com.wave.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -23,7 +23,7 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.pixys_settings_volume);
+        addPreferencesFromResource(R.xml.wave_settings_volume);
 
         // volume key cursor control
         mVolumeKeyCursorControl = (ListPreference) findPreference(VOLUME_KEY_CURSOR_CONTROL);
@@ -54,6 +54,6 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PIXYS_SETTINGS;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 }

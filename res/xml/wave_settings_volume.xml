@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2018 PixysOS
+<!-- Copyright (C) 2018 WaveOS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,13 +17,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-     <com.pixys.settings.preferences.SystemSettingSwitchPreference
+     <com.wave.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_button_music_control"
         android:summary="@string/volume_rocker_music_controls_summary"
         android:title="@string/volume_rocker_music_controls_title"
         android:defaultValue="false" />
 
-    <com.pixys.settings.preferences.SystemSettingSwitchPreference
+    <com.wave.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_rocker_wake"
         android:summary="@string/volume_rocker_wake_summary"
         android:title="@string/volume_rocker_wake_title"

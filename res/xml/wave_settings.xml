@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2018 PixysOS
+<!-- Copyright (C) 2018 WaveOS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,34 +15,34 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/pixys_settings_title" >
+    android:title="@string/wave_settings_title" >
 
         <!-- Buttons -->
         <Preference
             android:key="buttonsettings_category"
             android:title="@string/button_title"
-            android:fragment="com.pixys.settings.fragments.ButtonSettings"
+            android:fragment="com.wave.settings.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
 
         <!-- Navigation Bar -->
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title" 
-            android:fragment="com.pixys.settings.fragments.NavbarSettings"
+            android:fragment="com.wave.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Power Menu -->
         <Preference
             android:key="powermenu__category"
             android:title="@string/powermenu_title" 
-            android:fragment="com.pixys.settings.fragments.PowerMenuSettings"
+            android:fragment="com.wave.settings.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
         <!-- Notifications -->
         <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
-            android:fragment="com.pixys.settings.fragments.NotificationSettings"
+            android:fragment="com.wave.settings.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
 
 </PreferenceScreen>

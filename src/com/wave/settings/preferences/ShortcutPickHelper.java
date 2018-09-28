@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixys.settings.preferences;
+package com.wave.settings.preferences;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -41,7 +41,7 @@ import android.widget.ExpandableListView;
 import android.widget.TextView;
 
 import com.android.settings.R;
-import com.pixys.settings.preferences.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
+import com.wave.settings.preferences.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
 
 public class ShortcutPickHelper {
 

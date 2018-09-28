@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixys.settings.fragments;
+package com.wave.settings.fragments;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -40,7 +40,7 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.pixys.settings.preferences.Utils;
+import com.wave.settings.preferences.Utils;
 
 public class PowerMenuSettings extends SettingsPreferenceFragment
                 implements Preference.OnPreferenceChangeListener {
@@ -53,7 +53,7 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.pixys_settings_power);
+        addPreferencesFromResource(R.xml.wave_settings_power);
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
@@ -81,7 +81,7 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PIXYS_SETTINGS;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 
 }

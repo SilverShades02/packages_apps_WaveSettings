@@ -17,7 +17,7 @@
  * class that holds target widget state
  */
 
-package com.pixys.settings.preferences;
+package com.wave.settings.preferences;
 
 import java.util.ArrayList;
 
@@ -28,9 +28,9 @@ import com.android.internal.util.hwkeys.Config;
 import com.android.internal.util.hwkeys.Config.ActionConfig;
 import com.android.internal.util.hwkeys.Config.ButtonConfig;
 
-import com.pixys.settings.preferences.ShortcutPickHelper;
-import com.pixys.settings.preferences.ActionPreference;
-import com.pixys.settings.preferences.CustomActionListAdapter;
+import com.wave.settings.preferences.ShortcutPickHelper;
+import com.wave.settings.preferences.ActionPreference;
+import com.wave.settings.preferences.CustomActionListAdapter;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -165,7 +165,7 @@ public class ActionFragment extends SettingsPreferenceFragment implements
         switch (dialogId) {
             case DIALOG_CATEGORY:
             case DIALOG_CUSTOM_ACTIONS:
-                return MetricsEvent.PIXYS_SETTINGS;
+                return MetricsEvent.WAVE_SETTINGS;
             default:
                 return 0;
         }
@@ -256,6 +256,6 @@ public class ActionFragment extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PIXYS_SETTINGS;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 }

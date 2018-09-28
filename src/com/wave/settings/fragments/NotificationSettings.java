@@ -1,4 +1,4 @@
-package com.pixys.settings.fragments;
+package com.wave.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -11,7 +11,7 @@ import android.support.v7.preference.PreferenceScreen;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.pixys.settings.preferences.Utils;
+import com.wave.settings.preferences.Utils;
 
 public class NotificationSettings extends SettingsPreferenceFragment {
 
@@ -22,7 +22,7 @@ public class NotificationSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.pixys_settings_notifications);
+        addPreferencesFromResource(R.xml.wave_settings_notifications);
 
         PreferenceScreen prefScreen = getPreferenceScreen();
 
@@ -42,6 +42,6 @@ public class NotificationSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PIXYS_SETTINGS;
+        return MetricsProto.MetricsEvent.WAVE_SETTINGS;
     }
 }
